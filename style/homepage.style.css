@@ -1,0 +1,176 @@
+body{
+  background-color:white;
+	margin:0 auto;
+	padding: 0;
+	}
+	.spacer{width:50px; height:50px;}	
+	.noscore{text-decoration:none;}	
+	p{font-family: 'Open Sans', sans-serif;}
+	i{color:grey; font-size: 10px;}
+	
+/*For PC*/	
+@media screen and (min-width:1000px){
+
+.wrapper{
+	width:80%;
+	min-height:800px;
+	height:100%;
+	background-color: orange;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+}	
+	
+h1{
+	font-family: 'Open Sans', sans-serif;
+	text-align:center;
+	border-top:5px solid green;
+	border-bottom:5px solid green;
+	background-color:white;
+	width:500px;
+	margin-left:10%;
+	
+	
+}
+h2{
+	font-family: 'Open Sans', sans-serif;
+	background-color:white;
+	width:250px;
+}	
+
+.listspace{
+	background-color: white;
+	border-top: 5px solid green;
+	border-bottom: 5px solid green;
+	width: 50%;
+	margin-left:auto;
+	margin-right:auto;
+	min-height:100px;
+	height:100%;
+	padding:20px;
+}	
+.footer{
+	color: grey;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;	
+}	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*For Tablet*/
+
+@media screen and (max-width:999px) and (min-width:481px){
+
+.wrapper{
+	width:95%;
+	min-height:800px;
+	height:100%;
+	background-color: orange;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+}	
+	
+h1{
+	font-family: 'Open Sans', sans-serif;
+	text-align:center;
+	border:5px solid red;
+	background-color:white;
+	
+	
+}
+h2{
+	font-family: 'Open Sans', sans-serif;
+	background-color:white;
+	width:250px;
+	margin-left:1%;
+}	
+
+.listspace{
+	background-color: white;
+	border-top: 5px solid red;
+	border-bottom: 5px solid red;
+	width: 90%;
+	margin-left:auto;
+	margin-right:auto;
+	min-height:100px;
+	height:100%;
+	padding:20px;
+}	
+.footer{
+	color: grey;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;	
+}		
+	
+}
+
+
+
+
+
+
+
+
+
+
+/*For Mobile*/
+
+@media screen and (max-width:480px){
+
+.wrapper{
+	width:100%;
+	min-height:800px;
+	height:100%;
+	background-color: orange;
+	margin-left:auto;
+	margin-right:auto;
+}	
+	
+h1{
+	font-family: 'Open Sans', sans-serif;
+	border-top:5px solid blue;
+	border-bottom:5px solid blue;
+	background-color:white;
+	width: 90%;
+	margin-left: 5%;
+}
+h2{
+	font-family: 'Open Sans', sans-serif;
+	background-color: white;
+	width: 150px;
+	
+}	
+
+.listspace{
+	background-color: white;
+	border-top: 5px solid blue;
+	border-bottom: 5px solid blue;
+	width: 80%;
+	margin-left: 5%;
+	min-height:100px;
+	height:100%;
+	padding:20px;
+}	
+.footer{
+	color: grey;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;	
+}		
+	
+}
